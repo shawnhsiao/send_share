@@ -1,6 +1,6 @@
 language: objective-c
-osx_image: xcode7.3
-xcode_project: TravisGo/Unity-iPhone.xcodeproj
+osx_image: xcode7.3x
+xcode_project: TravisGo/TravisGo.xcodeproj
 xcode_scheme: TravisGo
 before_script:
 script:
