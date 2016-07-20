@@ -1,0 +1,7 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="ShareService">
+			<method name="ShareScreenshotWithText"/>
+		</type>
+	</assembly>
+</linker>
