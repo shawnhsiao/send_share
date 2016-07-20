@@ -2,13 +2,17 @@ osx_image: xcode7.3
 language: objective-c
 xcode_project: TravisGo/TravisGo.xcodeproj
 xcode_scheme: TravisGo
-before_script:
+before_script: TravisGo/script/travis/add-key.sh
 script:
   xctool -project TravisGo/TravisGo.xcodeproj/ -scheme TravisGo -configuration debug -sdk iphoneos9.3 build
 notifications:
-after_script:
-after_success:
+after_script: 
+after_success: echo "Success."
 branches:
   only:
     - master
     - develop
+env:
+  global:
+    - APP_NAME="TravisGo"
+    - PROFILE_NAME="TravisExample_Ad_Hoc"
