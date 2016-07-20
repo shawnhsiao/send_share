@@ -16,4 +16,4 @@ security default-keychain -s $KEYCHAIN_NAME
 security set-keychain-settings $KEYCHAIN_NAME
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-cp ./scripts/travis/profiles/* ~/Library/MobileDevice/Provisioning\ Profiles/
+cp TravisGo/script/travis/* ~/Library/MobileDevice/Provisioning\ Profiles/
