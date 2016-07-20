@@ -6,7 +6,7 @@ before_script: TravisGo/script/travis/add-key.sh
 script:
   xctool -project TravisGo/TravisGo.xcodeproj/ -scheme TravisGo -configuration debug -sdk iphoneos9.3 build
 notifications:
-after_script: 
+after_script:
 after_success: echo "Success."
 branches:
   only:
