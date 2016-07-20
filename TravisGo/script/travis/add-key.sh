@@ -1,6 +1,7 @@
 #/bin/sh
 KEYCHAIN_NAME="ios-build.keychain"
 CERT_NAME="certificate"
+KEY_PASSWORD="aktsk"
 DISTRIBUTION_CERT_NAME="destribution_certificate"
 DISTRIBUTION_KEY_PASSWORD="aktsk"
 
