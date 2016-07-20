@@ -4,6 +4,7 @@ xcode_project: TravisGo/TravisGo.xcodeproj
 xcode_scheme: TravisGo
 before_script:
 script:
+  xctool -project TravisGo/TravisGo.xcodeproj/ -scheme TravisGo -configuration debug -sdk iphonesimulator9.3 build
 notifications:
 after_script:
 after_success:
